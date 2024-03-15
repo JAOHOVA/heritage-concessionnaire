@@ -1,0 +1,34 @@
+Un concessionnaire automobile vend deux types de voiture : les voitures à essence et les voitures électriques.
+
+Pour les deux types de voitures, nous avons besoin de connaître leur marque et leur prix.
+
+Pour une voiture électrique, nous avons également besoin de connaître l'autonomie de sa batterie
+
+Pour une voiture à essence, on doit indiquer le taux de CO2 rejeté par kilomètre parcouru.
+
+On dispose de la classe Car.
+
+Question
+
+En utilisant l'héritage, créez deux classes ElectricCar et GasolineCar permettant de structurer les données manipulées
+par ce concessionnaire et instanciez une voiture électrique et une voiture à essence avec les valeurs de votre choix.
+
+2éme partie
+
+Lorsque nous allons afficher la fiche produite de l'une de nos voitures sur notre application,
+les différentes caractéristiques seront affichées dans une liste à puces avec leurs valeurs associées.
+Afin de gérer cela simplement du côté front,
+nous allons créer une fonction qui retourne un tableau associatif ayant pour clé le nom de la caractéristique et
+pour valeur la valeur de caractéristique.
+
+Créez une fonction getCharacteristics retournant les caractéristiques de chaque type de voiture.
+Pour une voiture électrique, nous aurons besoin de son prix, sa marque et l'autonomie de sa batterie ;
+et pour une voiture à essence, son prix, sa marque et la quantité d’émission de CO2.
+
+Attention : nous pourrions rajouter des caractéristiques à une voiture dans des évolutions futures,
+donc évitez la duplication de code qui rendrait l'application difficilement maintenable.
+
+3éme partie
+
+Écrivez maintenant une fonction displayCharacteristics prenant en paramètre une voiture, quelle qu'elle soit,
+et qui affiche la liste de ses caractéristiques dans une liste à puces.
